@@ -6,9 +6,9 @@ RUN apt-get update -y && \
     apt-get install -y python-pip python-dev && \
     pip install --upgrade pip
 
-COPY . /app
+COPY . /app1
 
-WORKDIR /app
+WORKDIR /app1
 
 RUN pip install -r requirements.txt
 
